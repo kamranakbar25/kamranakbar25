@@ -1,54 +1,64 @@
-# 👋 Hi, I'm Kamran Akbar  
-
-🎓 **B.Tech CSE (AI & ML)** | First Year  
-🏫 **Lovely Professional University (LPU)**  
-
-I’m a passionate Computer Science student focused on building strong fundamentals in programming, problem-solving, and frontend development.
+<h1 align="center">Hi, I'm Kamran Akbar 👋</h1>
+<p align="center">
+B.Tech CSE (AI & ML) · First Year · Lovely Professional University
+</p>
 
 ---
 
-## 🚀 About Me
-- 💻 Interested in **Software Development & Problem Solving**
-- 🧠 Currently learning **Data Structures & Algorithms**
-- 🐍 Comfortable with **Python**
-- ⚙️ Strong foundation in **C++**
-- 🎨 Frontend Developer (HTML, CSS, JavaScript)
-- 🔭 Exploring **Advanced Frontend** and future **Backend Development**
+## About Me
+I am a Computer Science undergraduate focused on building strong fundamentals in programming and problem-solving.  
+My primary interests lie in **Data Structures & Algorithms**, **Python development**, and **Frontend engineering**.  
+I believe in learning by building and improving consistently.
 
 ---
 
-## 🛠️ Tech Stack
-- **Languages:** Python, C++
-- **Frontend:** HTML, CSS, JavaScript
-- **Core CS:** Data Structures & Algorithms, OOPs
-- **Tools:** Git, GitHub, VS Code
+## Skills & Technologies
+**Languages**
+- Python  
+- C++
+
+**Frontend**
+- HTML  
+- CSS  
+- JavaScript  
+
+**Computer Science**
+- Data Structures & Algorithms  
+- Object-Oriented Programming  
+
+**Tools**
+- Git  
+- GitHub  
+- VS Code  
 
 ---
 
-## 📈 Currently Working On
-- 📌 DSA practice using C++
-- 📌 Python mini-projects
-- 📌 Advanced frontend concepts
-- 📌 Improving Git & GitHub workflow
+## What I'm Currently Working On
+- Strengthening DSA concepts using C++
+- Building Python-based mini projects
+- Advancing frontend development skills
+- Improving Git & GitHub workflows
 
 ---
 
-## 🌐 Connect With Me
-
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kamranakbar25)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kamran7488/)
-
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@KamranLearns)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kamranlearns/)
-
----
-
-## ⭐ Goals
-- Build strong problem-solving skills
-- Create meaningful projects
-- Become a well-rounded software developer
-- Learn backend development in the future
+## Connect With Me
+<p>
+<a href="https://github.com/kamranakbar25">GitHub</a> ·
+<a href="https://www.linkedin.com/in/kamran7488/">LinkedIn</a> ·
+<a href="https://www.youtube.com/@KamranLearns">YouTube</a> ·
+<a href="https://www.instagram.com/kamranlearns/">Instagram</a>
+</p>
 
 ---
 
-⭐ *Always learning. Always building. Always improving.*
+## Goals
+- Become highly proficient in problem solving  
+- Build real-world, production-ready projects  
+- Learn backend development and system design  
+- Grow into a disciplined software engineer  
+
+---
+
+<p align="center">
+<i>Focused on fundamentals. Consistent in effort. Serious about growth.</i>
+</p>
