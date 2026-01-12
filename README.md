@@ -9,11 +9,6 @@
 
 🔧 Tools: Git, GitHub, VS Code  
 
-📊 GitHub Stats  
-📊 GitHub Stats  
-### 📊 GitHub Stats
-![Kamran's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kamranakbar25&show_icons=true&theme=transparent&hide_border=true&cache_seconds=86400)
-
 🌐 Connect:  
 [GitHub](https://github.com/kamranakbar25) ·
 [LinkedIn](https://www.linkedin.com/in/kamran7488/) ·
