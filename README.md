@@ -10,6 +10,7 @@
 🔧 Tools: Git, GitHub, VS Code  
 
 📊 GitHub Stats  
+📊 GitHub Stats  
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kamranakbar25&show_icons=true&hide_title=true&hide_border=true)
 
 🌐 Connect:  
