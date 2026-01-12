@@ -10,7 +10,7 @@ Currently working on Data Structures & Algorithms, Python development, and front
 ### Skills
 - Languages: Python, C++
 - Frontend: HTML, CSS, JavaScript
-- Core CS: Data Structures & Algorithms, OOP
+- Core CS: Data Structures & Algorithms
 - Tools: Git, GitHub, VS Code
 
 ### Current Focus
@@ -22,9 +22,7 @@ Currently working on Data Structures & Algorithms, Python development, and front
 ![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kamranakbar25&theme=transparent)
 
 ### Connect
-- GitHub: https://github.com/kamranakbar25
 - LinkedIn: https://www.linkedin.com/in/kamran7488/
-- YouTube: https://www.youtube.com/@KamranLearns
 - Instagram: https://www.instagram.com/kamranlearns
 
 Learning by building. Improving every day.
