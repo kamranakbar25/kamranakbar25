@@ -18,8 +18,8 @@ Currently working on Data Structures & Algorithms, Python development, and front
 - Python mini-projects
 - Advanced frontend concepts
 
-### Github Stats
-![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kamranakbar25&theme=transparent)
+<!-- ### Github Stats
+![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kamranakbar25&theme=transparent) -->
 
 ### Connect
 - LinkedIn: https://www.linkedin.com/in/kamran7488/
