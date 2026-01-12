@@ -32,10 +32,10 @@ Currently working on Data Structures & Algorithms, Python development, and front
 ---
 
 ### Connect
-- GitHub: (https://github.com/kamranakbar25)
-- LinkedIn: (https://www.linkedin.com/in/kamran7488/)
-- YouTube: (https://www.youtube.com/@KamranLearns)
-- Instagram: (https://www.instagram.com/kamranlearns)
+- GitHub: https://github.com/kamranakbar25
+- LinkedIn: https://www.linkedin.com/in/kamran7488/
+- YouTube: https://www.youtube.com/@KamranLearns
+- Instagram: https://www.instagram.com/kamranlearns
 
 ---
 
