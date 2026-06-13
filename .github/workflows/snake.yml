@@ -1,27 +1,221 @@
-name: Generate Snake Animation
+name: Generate Contribution Snake
 
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   generate:
-    permissions:
-      contents: write
-
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate contribution snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: kamranakbar25
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Push snake animation to output branch
+      - name: Generate default-style contribution graph with moving snake
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: kamranakbar25
+        run: |
+          python <<'PY'
+          import os
+          import json
+          import urllib.request
+          import pathlib
+          import datetime
+
+          username = os.environ.get("USERNAME", "kamranakbar25")
+          token = os.environ["GITHUB_TOKEN"]
+
+          query = """
+          query($login: String!) {
+            user(login: $login) {
+              contributionsCollection {
+                contributionCalendar {
+                  weeks {
+                    contributionDays {
+                      date
+                      contributionCount
+                    }
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          payload = json.dumps({
+            "query": query,
+            "variables": {"login": username}
+          }).encode("utf-8")
+
+          req = urllib.request.Request(
+            "https://api.github.com/graphql",
+            data=payload,
+            headers={
+              "Authorization": f"Bearer {token}",
+              "Content-Type": "application/json",
+              "User-Agent": "github-readme-contribution-snake"
+            }
+          )
+
+          with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode("utf-8"))
+
+          if "errors" in data:
+            raise RuntimeError(data["errors"])
+
+          weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+
+          CELL = 11
+          GAP = 3
+          LEFT = 42
+          TOP = 28
+          ROWS = 7
+          COLS = len(weeks)
+          WIDTH = LEFT + COLS * (CELL + GAP) + 24
+          HEIGHT = TOP + ROWS * (CELL + GAP) + 34
+
+          def level_color(count):
+            if count == 0:
+              return "#161b22"
+            if count <= 2:
+              return "#0e4429"
+            if count <= 5:
+              return "#006d32"
+            if count <= 10:
+              return "#26a641"
+            return "#39d353"
+
+          rects = []
+          path_points = []
+
+          month_labels = []
+          seen_months = set()
+          month_names = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+          for week_index, week in enumerate(weeks):
+            days = week["contributionDays"]
+
+            for day_index, day in enumerate(days):
+              date_text = day["date"]
+              count = int(day["contributionCount"])
+
+              x = LEFT + week_index * (CELL + GAP)
+              y = TOP + day_index * (CELL + GAP)
+
+              color = level_color(count)
+
+              rects.append(
+                f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2" '
+                f'fill="{color}" stroke="#30363d" stroke-width="0.35">'
+                f'<title>{date_text}: {count} contributions</title>'
+                f'</rect>'
+              )
+
+              cx = x + CELL / 2
+              cy = y + CELL / 2
+              path_points.append((week_index, day_index, cx, cy))
+
+              date_obj = datetime.date.fromisoformat(date_text)
+              month_key = (date_obj.year, date_obj.month)
+
+              if date_obj.day <= 7 and month_key not in seen_months:
+                seen_months.add(month_key)
+                month_labels.append(
+                  f'<text x="{x}" y="14" fill="#8b949e" '
+                  f'font-family="Segoe UI, Arial, sans-serif" font-size="10">'
+                  f'{month_names[date_obj.month - 1]}</text>'
+                )
+
+          # Make snake path in zig-zag order over the contribution grid.
+          ordered_points = []
+          for week_index in range(COLS):
+            week_points = [p for p in path_points if p[0] == week_index]
+            if week_index % 2 == 0:
+              week_points = sorted(week_points, key=lambda p: p[1])
+            else:
+              week_points = sorted(week_points, key=lambda p: p[1], reverse=True)
+
+            for _, _, cx, cy in week_points:
+              ordered_points.append((cx, cy))
+
+          path_d = ""
+          for index, (cx, cy) in enumerate(ordered_points):
+            command = "M" if index == 0 else " L"
+            path_d += f"{command}{cx:.1f} {cy:.1f}"
+
+          weekday_labels = """
+          <text x="8" y="50" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="10">Mon</text>
+          <text x="8" y="78" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="10">Wed</text>
+          <text x="8" y="106" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="10">Fri</text>
+          """
+
+          snake_parts = """
+          <circle r="5.2" fill="#39d353" opacity="1">
+            <animateMotion dur="30s" repeatCount="indefinite" begin="0s" rotate="auto">
+              <mpath href="#snakePath" />
+            </animateMotion>
+          </circle>
+
+          <circle r="4.6" fill="#26a641" opacity="0.8">
+            <animateMotion dur="30s" repeatCount="indefinite" begin="-0.35s" rotate="auto">
+              <mpath href="#snakePath" />
+            </animateMotion>
+          </circle>
+
+          <circle r="4.0" fill="#26a641" opacity="0.6">
+            <animateMotion dur="30s" repeatCount="indefinite" begin="-0.70s" rotate="auto">
+              <mpath href="#snakePath" />
+            </animateMotion>
+          </circle>
+
+          <circle r="3.4" fill="#0e4429" opacity="0.45">
+            <animateMotion dur="30s" repeatCount="indefinite" begin="-1.05s" rotate="auto">
+              <mpath href="#snakePath" />
+            </animateMotion>
+          </circle>
+          """
+
+          svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}" role="img" aria-label="GitHub contribution graph with moving snake">
+            <rect width="100%" height="100%" fill="transparent" />
+
+            <g>
+              {''.join(month_labels)}
+            </g>
+
+            <g>
+              {weekday_labels}
+            </g>
+
+            <g>
+              {''.join(rects)}
+            </g>
+
+            <path id="snakePath" d="{path_d}" fill="none" stroke="none" />
+
+            <g>
+              {snake_parts}
+            </g>
+
+            <text x="{LEFT}" y="{HEIGHT - 8}" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="10">
+              Contribution graph with snake overlay only
+            </text>
+          </svg>
+          """
+
+          pathlib.Path("dist").mkdir(exist_ok=True)
+          pathlib.Path("dist/contribution-snake.svg").write_text(svg, encoding="utf-8")
+          PY
+
+      - name: Push SVG to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
