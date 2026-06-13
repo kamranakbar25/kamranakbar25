@@ -1,225 +1,214 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,100:2563EB&height=200&section=header&text=Kamran%20Akbar&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=38&desc=AI%20%26%20ML%20Learner%20%7C%20B.Tech%20CSE%20Student&descAlignY=58&descAlign=50" width="100%"/>
-</p>
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=230&section=header&text=Kamran%20Akbar&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=B.Tech%20CSE%20(AI%20%26%20ML)%20%7C%20Learning%20by%20Building&descAlignY=58&descSize=18" />
+
+</div>
+
+<h1 align="center">Hi 👋, I'm Kamran Akbar</h1>
+
+<h3 align="center">
+B.Tech CSE Student | AI & ML Learner | Java DSA | Python | Web Development
+</h3>
 
 <p align="center">
   <a href="https://github.com/kamranakbar25">
-    <img src="https://komarev.com/ghpvc/?username=kamranakbar25&label=Profile%20Views&color=7c3aed&style=flat-square" alt="profile views"/>
+    <img src="https://komarev.com/ghpvc/?username=kamranakbar25&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
   </a>
-  &nbsp;
   <a href="https://github.com/kamranakbar25?tab=followers">
-    <img src="https://img.shields.io/github/followers/kamranakbar25?label=Followers&style=flat-square&color=7c3aed&logo=github" alt="followers"/>
+    <img src="https://img.shields.io/github/followers/kamranakbar25?label=Followers&style=for-the-badge&logo=github" alt="GitHub Followers" />
   </a>
-  &nbsp;
   <a href="mailto:kamranakbar97578@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-kamranakbar97578%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="email"/>
+    <img src="https://img.shields.io/badge/Gmail-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=B.Tech+CSE+%7C+AI+%26+ML+Specialization;Python+%7C+Data+Science+%7C+ML+Learner;Java+DSA+in+Progress;Building+Real+Projects+Step+by+Step;Learning+by+Doing+%E2%80%94+No+Shortcuts" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2500&pause=900&color=8A2BE2&center=true&vCenter=true&width=850&lines=AI+%26+ML+Learner;Java+DSA+in+Progress;Python+%7C+Data+Analysis+%7C+Machine+Learning;Building+Projects+Step+by+Step;Open+Source+%7C+Hackathons+%7C+Real+Growth;No+Fake+Claims%2C+Only+Consistent+Improvement" alt="Typing SVG" />
 </p>
 
 ---
 
-## 👋 About Me
+## About Me
 
-```python
-kamran = {
-    "name"        : "Kamran Akbar",
-    "education"   : "B.Tech CSE — AI & ML Specialization",
-    "github"      : "kamranakbar25",
-    "email"       : "kamranakbar97578@gmail.com",
-    "status"      : "Student • Learner • Builder",
-    "interests"   : ["Machine Learning", "Data Science", "DSA", "Web Dev", "Open Source"],
-    "approach"    : "Honest growth over fake claims 🌱",
-}
-```
+I am a **B.Tech CSE student specializing in Artificial Intelligence and Machine Learning**.
 
-> 🎯 I'm a B.Tech CSE student specializing in **Artificial Intelligence and Machine Learning**.  
-> I'm still building my foundation — one concept, one project, one commit at a time.  
-> No fake experience claims. Just real learning, real progress, and real goals.
+Right now, I am building my foundation step by step in programming, data science, DSA, DBMS, web development, and real-world projects.
+
+I am not here to fake big claims.  
+I am still learning, but I am serious about becoming skilled enough to build useful projects, contribute to open source, participate in hackathons, and become internship-ready and placement-ready.
 
 ---
 
-## 📚 Current Learning Path
+## Current Focus
+
+```txt
+Python → NumPy → Pandas → Data Visualization → Statistics → Machine Learning
+
+Java → DSA → Problem Solving → Interview Preparation
+
+Web Development → Real Projects → GitHub Portfolio
+
+Open Source → Collaboration → Hackathons
+```
+
+---
+
+## Tech Stack
+
+### Languages
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,java,c,cpp,javascript" />
+</p>
+
+### Frontend
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,tailwind,react" />
+</p>
+
+### Backend, Database & Tools
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=flask,django,postgresql,git,github,vscode" />
+</p>
+
+---
+
+## Skills I'm Building
 
 <table>
   <tr>
-    <td valign="top" width="50%">
-
-**🤖 AI / ML Track**
-- ✅ Python Fundamentals
-- ✅ NumPy & Pandas
-- ✅ Data Visualization
-- 🔄 Statistics & Probability
-- 🔄 Machine Learning Algorithms
-- ⏳ Deep Learning (upcoming)
-
-    </td>
-    <td valign="top" width="50%">
-
-**💻 CS Core Track**
-- ✅ C / C++ Basics
-- 🔄 Java + DSA (Arrays, LinkedList, Trees)
-- ✅ DBMS Concepts
-- ✅ SQL & PostgreSQL
-- 🔄 Web Development
-- ⏳ System Design (upcoming)
-
-    </td>
+    <td><b>Programming</b></td>
+    <td>Python, Java, C, C++, JavaScript</td>
+  </tr>
+  <tr>
+    <td><b>DSA</b></td>
+    <td>Learning Data Structures and Algorithms using Java</td>
+  </tr>
+  <tr>
+    <td><b>AI / ML</b></td>
+    <td>Python, NumPy, Pandas, Data Visualization, Statistics, Machine Learning Fundamentals</td>
+  </tr>
+  <tr>
+    <td><b>Web Development</b></td>
+    <td>HTML, CSS, Tailwind CSS, JavaScript, React Basics</td>
+  </tr>
+  <tr>
+    <td><b>Database</b></td>
+    <td>DBMS, SQL, PostgreSQL</td>
+  </tr>
+  <tr>
+    <td><b>Tools</b></td>
+    <td>Git, GitHub, VS Code</td>
   </tr>
 </table>
 
-> ✅ Done &nbsp;&nbsp; 🔄 In Progress &nbsp;&nbsp; ⏳ Planned
+---
+
+## What I'm Working On
+
+- Python mini projects
+- CRUD applications
+- File handling projects
+- Java DSA practice
+- SQL and DBMS practice
+- Frontend landing pages
+- Beginner AI/ML projects
+- Hackathon-ready project ideas
+- Open source contributions
 
 ---
 
-## 🛠️ Tech Stack
+## Goals
 
-<p align="center">
-  <strong>Languages</strong><br/><br/>
-  <img src="https://skillicons.dev/icons?i=python,java,c,cpp,javascript&theme=dark" />
-</p>
-
-<p align="center">
-  <strong>Frontend</strong><br/><br/>
-  <img src="https://skillicons.dev/icons?i=html,css,tailwind,react&theme=dark" />
-</p>
-
-<p align="center">
-  <strong>Backend & Databases</strong><br/><br/>
-  <img src="https://skillicons.dev/icons?i=flask,django,postgresql&theme=dark" />
-</p>
-
-<p align="center">
-  <strong>Tools & Platforms</strong><br/><br/>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux&theme=dark" />
-</p>
+- Build a strong GitHub profile with real projects
+- Improve DSA using Java
+- Learn AI/ML from basics to projects
+- Participate seriously in hackathons
+- Contribute to open source
+- Build projects that solve real problems
+- Become internship-ready and placement-ready
+- Target product-based companies in the future
 
 ---
 
-## 🧩 Skills I'm Building
-
-| Area | Skills | Status |
-|------|--------|--------|
-| 🐍 Python | NumPy, Pandas, Matplotlib, Seaborn | 🔄 Building |
-| 🤖 ML | Scikit-learn, Model Training, EDA | 🔄 Learning |
-| ☕ Java | OOP, Data Structures, Algorithms | 🔄 In Progress |
-| 🗄️ Databases | SQL, PostgreSQL, DBMS, Normalization | 🔄 Practicing |
-| 🌐 Web Dev | HTML, CSS, Tailwind, React, Flask | 🔄 Building |
-| 🔧 DevTools | Git, GitHub, VS Code, Terminal | ✅ Using Daily |
-
----
-
-## 🔨 What I'm Working On
-
-- 📊 **Data Analysis Projects** — Exploring real datasets with Pandas & Matplotlib
-- 🤖 **ML Mini Projects** — Implementing classic algorithms from scratch & with Scikit-learn
-- 🧮 **Java DSA Practice** — Solving problems consistently on arrays, strings, and trees
-- 🌐 **Web Projects** — Building simple apps with HTML/CSS/Flask
-- 📖 **Open Source Prep** — Learning how to contribute, read codebases, and write good PRs
-
----
-
-## 🎯 Goals
-
-```
-🏁  Short-term  →  Complete ML fundamentals + build 3 real projects
-📈  Mid-term    →  Consistent DSA practice + hackathon participation
-🚀  Long-term   →  Internship-ready + placement-ready for product-based companies
-🌍  Always      →  Learn in public, contribute to open source, grow every day
-```
-
----
-
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kamranakbar25&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&ring_color=a855f7" height="180" alt="GitHub Stats"/>
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamranakbar25&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9" height="180" alt="Top Languages"/>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=kamranakbar25&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=kamranakbar25&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=kamranakbar25&theme=tokyonight&hide_border=true&background=0d1117&stroke=a855f7&ring=a855f7&fire=ff6b6b&currStreakLabel=a855f7&sideLabels=a855f7" alt="GitHub Streak"/>
+  <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamranakbar25&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
 ---
 
-## 🏆 GitHub Trophies
+## GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kamranakbar25&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=kamranakbar25&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10" alt="GitHub Trophies" />
 </p>
 
 ---
 
-## 📈 Contribution Activity Graph
+## Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kamranakbar25&bg_color=0d1117&color=a855f7&line=a855f7&point=ffffff&area=true&hide_border=true" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kamranakbar25&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
 </p>
 
 ---
 
-## 🐍 Contribution Snake
+## Contribution Snake
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/snake_grid.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/snake_grid.svg"/>
-    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/snake_grid.svg"/>
-  </picture>
+  <img src="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </p>
 
 ---
 
-## 💭 My Mindset
+## My Mindset
 
-<p align="center">
+```txt
+No fake claims.
+No shortcut mindset.
+No pretending to be an expert.
 
-> *"I'm not an expert yet — and that's perfectly fine.*  
-> *Every line of code I write, every bug I fix, every concept I understand*  
-> *is a step forward. I believe in honest growth over fake credentials.*  
-> *I'm building the foundation that will carry me far."*  
->  
-> — Kamran Akbar
-
-</p>
-
-```
-📌  Consistency > Intensity
-📌  Understanding > Memorization
-📌  Real Projects > Tutorial Hell
-📌  Growth Mindset > Fixed Mindset
-📌  No fake claims. Only real progress. 🌱
+Just learning, building, failing, fixing, and improving.
 ```
 
+<p align="center">
+  <b>Small daily progress becomes serious skill with time.</b>
+</p>
+
 ---
 
-## 🤝 Connect With Me
+## Connect With Me
 
 <p align="center">
-  <a href="mailto:kamranakbar97578@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  &nbsp;
   <a href="https://github.com/kamranakbar25">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-kamranakbar25-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="mailto:kamranakbar97578@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-kamranakbar97578%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
-<p align="center">
-  <i>📬 Always open to learning opportunities, hackathons, open source, and connecting with fellow students!</i>
-</p>
+<!-- LinkedIn ready ho to niche wala uncomment karke apna LinkedIn link add kar dena -->
 
----
-
+<!--
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:6D28D9&height=120&section=footer&animation=twinkling" width="100%"/>
+  <a href="YOUR_LINKEDIN_URL_HERE">
+    <img src="https://img.shields.io/badge/LinkedIn-Kamran%20Akbar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 </p>
+-->
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=A855F7&center=true&vCenter=true&width=500&lines=Thanks+for+visiting+my+profile!+%F0%9F%91%8B;Keep+learning.+Keep+building.+%F0%9F%9A%80;Let%27s+grow+together!+%F0%9F%8C%B1" alt="Footer Typing"/>
-</p>
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=130&section=footer" />
+
+</div>
