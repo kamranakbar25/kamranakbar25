@@ -1,13 +1,13 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=230&section=header&text=Kamran%20Akbar&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=B.Tech%20CSE%20(AI%20%26%20ML)%20%7C%20Learning%20by%20Building&descAlignY=58&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=230&section=header&text=Kamran%20Akbar&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=B.Tech%20CSE%20AI%20and%20ML%20%7C%20Learning%20by%20Building&descAlignY=58&descSize=18" />
 
 </div>
 
 <h1 align="center">Hi 👋, I'm Kamran Akbar</h1>
 
 <h3 align="center">
-B.Tech CSE Student | AI & ML Learner | Java DSA | Python | Web Development
+B.Tech CSE Student | AI and ML Learner | Java DSA | Python | Web Development
 </h3>
 
 <p align="center">
@@ -23,7 +23,7 @@ B.Tech CSE Student | AI & ML Learner | Java DSA | Python | Web Development
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2500&pause=900&color=8A2BE2&center=true&vCenter=true&width=850&lines=AI+%26+ML+Learner;Java+DSA+in+Progress;Python+%7C+Data+Analysis+%7C+Machine+Learning;Building+Projects+Step+by+Step;Open+Source+%7C+Hackathons+%7C+Real+Growth;No+Fake+Claims%2C+Only+Consistent+Improvement" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2500&pause=900&color=8A2BE2&center=true&vCenter=true&width=850&lines=AI+and+ML+Learner;Java+DSA+in+Progress;Python+Data+Analysis+Machine+Learning;Building+Projects+Step+by+Step;Open+Source+Hackathons+Real+Growth;No+Fake+Claims+Only+Consistent+Improvement" alt="Typing SVG" />
 </p>
 
 ---
@@ -58,19 +58,19 @@ Open Source → Collaboration → Hackathons
 ### Languages
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,java,c,cpp,javascript" />
+  <img src="https://skillicons.dev/icons?i=python,java,c,cpp,javascript" alt="Languages" />
 </p>
 
 ### Frontend
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,tailwind,react" />
+  <img src="https://skillicons.dev/icons?i=html,css,tailwind,react" alt="Frontend Skills" />
 </p>
 
-### Backend, Database & Tools
+### Backend, Database and Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=flask,django,postgresql,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=flask,django,postgresql,git,github,vscode" alt="Backend Database Tools" />
 </p>
 
 ---
@@ -137,7 +137,7 @@ Open Source → Collaboration → Hackathons
 
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=kamranakbar25&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=kamranakbar25&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img width="48%" src="https://streak-stats.demolab.com?user=kamranakbar25&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
@@ -149,7 +149,7 @@ Open Source → Collaboration → Hackathons
 ## GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kamranakbar25&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=kamranakbar25&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=1&column=6" alt="GitHub Trophies" />
 </p>
 
 ---
@@ -165,7 +165,11 @@ Open Source → Collaboration → Hackathons
 ## Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
 </p>
 
 ---
@@ -190,10 +194,10 @@ Just learning, building, failing, fixing, and improving.
 
 <p align="center">
   <a href="https://github.com/kamranakbar25">
-    <img src="https://img.shields.io/badge/GitHub-kamranakbar25-181717?style=for-the-badge&logo=github" />
+    <img src="https://img.shields.io/badge/GitHub-kamranakbar25-181717?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
   <a href="mailto:kamranakbar97578@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-kamranakbar97578%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gmail-kamranakbar97578%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </p>
 
@@ -202,7 +206,7 @@ Just learning, building, failing, fixing, and improving.
 <!--
 <p align="center">
   <a href="YOUR_LINKEDIN_URL_HERE">
-    <img src="https://img.shields.io/badge/LinkedIn-Kamran%20Akbar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Kamran%20Akbar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 -->
