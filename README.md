@@ -1,28 +1,214 @@
-<h2>Hi, I'm Kamran Akbar</h2>
+<div align="center">
 
-B.Tech CSE (Artificial Intelligence & Machine Learning) — First Year  
-Lovely Professional University  
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=230&section=header&text=Kamran%20Akbar&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=B.Tech%20CSE%20(AI%20%26%20ML)%20%7C%20Learning%20by%20Building&descAlignY=58&descSize=18" />
 
-### About
-I am a Computer Science undergraduate focused on building strong programming fundamentals and problem-solving skills.  
-Currently working on Data Structures & Algorithms, Python development, and frontend technologies.
+</div>
 
-### Skills
-- Languages: Python, C++
-- Frontend: HTML, CSS, JavaScript
-- Core CS: Data Structures & Algorithms
-- Tools: Git, GitHub, VS Code
+<h1 align="center">Hi 👋, I'm Kamran Akbar</h1>
 
-### Current Focus
-- DSA practice using C++
-- Python mini-projects
-- Advanced frontend concepts
+<h3 align="center">
+B.Tech CSE Student | AI & ML Learner | Java DSA | Python | Web Development
+</h3>
 
-<!-- ### Github Stats
-![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kamranakbar25&theme=transparent) -->
+<p align="center">
+  <a href="https://github.com/kamranakbar97578">
+    <img src="https://komarev.com/ghpvc/?username=kamranakbar97578&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+  </a>
+  <a href="https://github.com/kamranakbar97578?tab=followers">
+    <img src="https://img.shields.io/github/followers/kamranakbar97578?label=Followers&style=for-the-badge&logo=github" alt="GitHub Followers" />
+  </a>
+  <a href="mailto:kamranakbar97578@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
 
-### Connect
-- LinkedIn: https://www.linkedin.com/in/kamran7488/
-- Instagram: https://www.instagram.com/kamranlearns
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2500&pause=900&color=8A2BE2&center=true&vCenter=true&width=800&lines=AI+%26+ML+Learner;Java+DSA+in+Progress;Python+%7C+Data+Analysis+%7C+Machine+Learning;Building+Projects+Step+by+Step;No+Fake+Claims%2C+Only+Real+Growth" alt="Typing SVG" />
+</p>
 
-Learning by building. Improving every day.
+---
+
+## About Me
+
+I am a **B.Tech CSE student specializing in Artificial Intelligence and Machine Learning**.
+
+Right now, I am building my foundation step by step in programming, data science, DSA, DBMS, web development, and real-world projects.
+
+I am not here to fake big claims.  
+I am still learning, but I am serious about becoming skilled enough to build useful projects, contribute to open source, participate in hackathons, and become internship-ready and placement-ready.
+
+---
+
+## Current Focus
+
+```txt
+Python → NumPy → Pandas → Data Visualization → Statistics → Machine Learning
+
+Java → DSA → Problem Solving → Interview Preparation
+
+Web Development → Real Projects → GitHub Portfolio
+
+Open Source → Collaboration → Hackathons
+```
+
+---
+
+## Tech Stack
+
+### Languages
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,java,c,cpp,javascript" />
+</p>
+
+### Frontend
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,tailwind,react" />
+</p>
+
+### Backend, Database & Tools
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=flask,django,postgresql,git,github,vscode" />
+</p>
+
+---
+
+## Skills I'm Building
+
+<table>
+  <tr>
+    <td><b>Programming</b></td>
+    <td>Python, Java, C, C++, JavaScript</td>
+  </tr>
+  <tr>
+    <td><b>DSA</b></td>
+    <td>Learning Data Structures and Algorithms using Java</td>
+  </tr>
+  <tr>
+    <td><b>AI / ML</b></td>
+    <td>Python, NumPy, Pandas, Data Visualization, Statistics, Machine Learning Fundamentals</td>
+  </tr>
+  <tr>
+    <td><b>Web Development</b></td>
+    <td>HTML, CSS, Tailwind CSS, JavaScript, React Basics</td>
+  </tr>
+  <tr>
+    <td><b>Database</b></td>
+    <td>DBMS, SQL, PostgreSQL</td>
+  </tr>
+  <tr>
+    <td><b>Tools</b></td>
+    <td>Git, GitHub, VS Code</td>
+  </tr>
+</table>
+
+---
+
+## What I'm Working On
+
+- Python mini projects
+- CRUD applications
+- File handling projects
+- Java DSA practice
+- SQL and DBMS practice
+- Frontend landing pages
+- Beginner AI/ML projects
+- Hackathon-ready project ideas
+- Open source contributions
+
+---
+
+## Goals
+
+- Build a strong GitHub profile with real projects
+- Improve DSA using Java
+- Learn AI/ML from basics to projects
+- Participate seriously in hackathons
+- Contribute to open source
+- Build projects that solve real problems
+- Become internship-ready and placement-ready
+- Target product-based companies in the future
+
+---
+
+## GitHub Stats
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=kamranakbar97578&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=kamranakbar97578&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamranakbar97578&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+---
+
+## GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=kamranakbar97578&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+</p>
+
+---
+
+## Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kamranakbar97578&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
+</p>
+
+---
+
+## Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kamranakbar97578/kamranakbar97578/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+</p>
+
+---
+
+## My Mindset
+
+```txt
+No fake claims.
+No shortcut mindset.
+No pretending to be an expert.
+
+Just learning, building, failing, fixing, and improving.
+```
+
+<p align="center">
+  <b>Small daily progress becomes serious skill with time.</b>
+</p>
+
+---
+
+## Connect With Me
+
+<p align="center">
+  <a href="https://github.com/kamranakbar97578">
+    <img src="https://img.shields.io/badge/GitHub-kamranakbar97578-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="mailto:kamranakbar97578@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-kamranakbar97578%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+<!-- LinkedIn ready ho to niche wala uncomment karke apna LinkedIn link add kar dena -->
+
+<!--
+<p align="center">
+  <a href="YOUR_LINKEDIN_URL_HERE">
+    <img src="https://img.shields.io/badge/LinkedIn-Kamran%20Akbar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
+-->
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=130&section=footer" />
+
+</div>
