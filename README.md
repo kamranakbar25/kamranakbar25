@@ -146,14 +146,6 @@ Open Source → Collaboration → Hackathons
 
 ---
 
-## GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kamranakbar25&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=1&column=6" alt="GitHub Trophies" />
-</p>
-
----
-
 ## Contribution Activity
 
 <p align="center">
@@ -165,11 +157,7 @@ Open Source → Collaboration → Hackathons
 ## Contribution Snake
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/contribution-snake.svg" alt="Contribution Snake" />
 </p>
 
 ---
