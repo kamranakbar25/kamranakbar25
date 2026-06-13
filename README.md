@@ -1,14 +1,16 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Kamran%20Akbar&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=38&desc=AI%20%26%20ML%20Learner%20%7C%20B.Tech%20CSE%20Student&descAlignY=58&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,100:2563EB&height=200&section=header&text=Kamran%20Akbar&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=38&desc=AI%20%26%20ML%20Learner%20%7C%20B.Tech%20CSE%20Student&descAlignY=58&descAlign=50" width="100%"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/kamranakbar25">
     <img src="https://komarev.com/ghpvc/?username=kamranakbar25&label=Profile%20Views&color=7c3aed&style=flat-square" alt="profile views"/>
   </a>
+  &nbsp;
   <a href="https://github.com/kamranakbar25?tab=followers">
     <img src="https://img.shields.io/github/followers/kamranakbar25?label=Followers&style=flat-square&color=7c3aed&logo=github" alt="followers"/>
   </a>
+  &nbsp;
   <a href="mailto:kamranakbar97578@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-kamranakbar97578%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="email"/>
   </a>
@@ -140,7 +142,7 @@ kamran = {
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kamranakbar25&theme=tokyonight&hide_border=true&background=0d1117&stroke=a855f7&ring=a855f7&fire=ff6b6b&currStreakLabel=a855f7&sideLabels=a855f7" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=kamranakbar25&theme=tokyonight&hide_border=true&background=0d1117&stroke=a855f7&ring=a855f7&fire=ff6b6b&currStreakLabel=a855f7&sideLabels=a855f7" alt="GitHub Streak"/>
 </p>
 
 ---
@@ -148,7 +150,7 @@ kamran = {
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kamranakbar25&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=6" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=kamranakbar25&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies"/>
 </p>
 
 ---
@@ -156,7 +158,7 @@ kamran = {
 ## 📈 Contribution Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kamranakbar25&bg_color=0d1117&color=a855f7&line=a855f7&point=ffffff&area=true&area_color=a855f720&hide_border=true" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kamranakbar25&bg_color=0d1117&color=a855f7&line=a855f7&point=ffffff&area=true&hide_border=true" alt="Activity Graph"/>
 </p>
 
 ---
@@ -164,7 +166,11 @@ kamran = {
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/snake_grid.svg" alt="Contribution Snake — purple snake travels only through empty cells, green contributions stay untouched"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/snake_grid.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/snake_grid.svg"/>
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/snake_grid.svg"/>
+  </picture>
 </p>
 
 ---
@@ -184,7 +190,7 @@ kamran = {
 
 ```
 📌  Consistency > Intensity
-📌  Understanding > Memorization  
+📌  Understanding > Memorization
 📌  Real Projects > Tutorial Hell
 📌  Growth Mindset > Fixed Mindset
 📌  No fake claims. Only real progress. 🌱
@@ -211,7 +217,7 @@ kamran = {
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:6D28D9&height=120&section=footer&animation=twinkling" width="100%"/>
 </p>
 
 <p align="center">
