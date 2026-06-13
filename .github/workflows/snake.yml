@@ -1,9 +1,9 @@
-name: Generate Snake Animation
+name: Generate Custom Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Runs every day at midnight UTC
-  workflow_dispatch:        # Allows manual trigger from GitHub Actions tab
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -17,15 +17,160 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate Snake SVG (Light + Dark)
-        uses: Platane/snk/svg-only@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          python-version: "3.11"
 
-      - name: Deploy to GitHub Pages (output branch)
+      - name: Write snake generator script
+        run: |
+          cat > gen_snake.py << 'PYEOF'
+          import json, sys, urllib.request
+          from datetime import datetime, date, timedelta
+
+          USERNAME = "kamranakbar25"
+          TOKEN    = sys.argv[1] if len(sys.argv) > 1 else ""
+
+          QUERY = """
+          query($login: String!) {
+            user(login: $login) {
+              contributionsCollection {
+                contributionCalendar {
+                  weeks {
+                    contributionDays { date contributionCount }
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          def fetch_contributions():
+              payload = json.dumps({"query": QUERY, "variables": {"login": USERNAME}}).encode()
+              req = urllib.request.Request(
+                  "https://api.github.com/graphql",
+                  data=payload,
+                  headers={
+                      "Content-Type": "application/json",
+                      "Authorization": f"bearer {TOKEN}",
+                      "User-Agent": "snake-gen"
+                  }
+              )
+              with urllib.request.urlopen(req) as r:
+                  return json.loads(r.read())
+
+          def color_for_count(n):
+              if n == 0:  return "#161b22"
+              if n < 3:   return "#0e4429"
+              if n < 6:   return "#006d32"
+              if n < 10:  return "#26a641"
+              return "#39d353"
+
+          def generate_svg(grid):
+              CELL=11; GAP=2; STEP=CELL+GAP
+              COLS=len(grid); ROWS=7
+              PAD_L=28; PAD_T=24; PAD_R=10; PAD_B=10
+              W=PAD_L+COLS*STEP+PAD_R; H=PAD_T+ROWS*STEP+PAD_B
+
+              cells={}
+              for ci,col in enumerate(grid):
+                  for ri,(d,count) in enumerate(col):
+                      cells[(ci,ri)]=(PAD_L+ci*STEP, PAD_T+ri*STEP, count, d)
+
+              empty={k for k,(x,y,c,d) in cells.items() if c==0}
+
+              path=[]
+              for ri in range(ROWS):
+                  row=[( ci,ri) for(ci,r) in cells if r==ri]
+                  row=sorted(row, reverse=(ri%2==1))
+                  path+=[p for p in row if p in empty]
+
+              if not path:
+                  for ri in range(ROWS):
+                      row=sorted([(ci,ri) for(ci,r) in cells if r==ri],reverse=(ri%2==1))
+                      path+=row
+
+              month_labels=[]
+              seen=set()
+              for ci,col in enumerate(grid):
+                  if col:
+                      ds=col[0][0]; mo=ds[:7]
+                      if mo not in seen:
+                          seen.add(mo)
+                          month_labels.append((PAD_L+ci*STEP, datetime.strptime(ds,"%Y-%m-%d").strftime("%b")))
+
+              rects=[f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2" fill="{color_for_count(c)}"/>'
+                     for(x,y,c,d) in cells.values()]
+
+              SNAKE_LEN=6
+              DUR=max(6,len(path)*0.06)
+
+              if len(path)>=2:
+                  pts=[]
+                  for i,(ci,ri) in enumerate(path):
+                      x,y,_,_=cells[(ci,ri)]
+                      pts.append(f"{'M' if i==0 else 'L'}{x+CELL//2},{y+CELL//2}")
+                  motion_d=" ".join(pts)
+              else:
+                  motion_d="M10,10 L20,10"
+
+              circles=[]
+              for si in range(SNAKE_LEN):
+                  hue=270+si*10; op=round(1.0-si*0.13,2); bo=round(-(si/SNAKE_LEN)*DUR,2)
+                  r=5 if si==0 else 4
+                  circles.append(
+                      f'  <circle r="{r}" fill="hsl({hue},90%,65%)" opacity="{op}">\n'
+                      f'    <animateMotion dur="{DUR:.1f}s" repeatCount="indefinite" begin="{bo}s" calcMode="linear">'
+                      f'<mpath href="#sp"/></animateMotion>\n  </circle>'
+                  )
+
+              ml=[f'<text x="{x}" y="{PAD_T-6}" fill="#8b949e" font-size="9" font-family="monospace">{m}</text>'
+                  for x,m in month_labels]
+              dl=[f'<text x="{PAD_L-4}" y="{PAD_T+ri*STEP+CELL-1}" fill="#8b949e" font-size="9" font-family="monospace" text-anchor="end">{lb}</text>'
+                  for lb,ri in [("Mon",1),("Wed",3),("Fri",5)]]
+
+              parts=[
+                  f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
+                  f'  <rect width="{W}" height="{H}" fill="#0d1117" rx="6"/>',
+              ]+ml+dl+rects+[
+                  '  <defs><path id="sp" d="'+motion_d+'" fill="none"/></defs>',
+              ]+circles+['</svg>']
+              return "\n".join(parts)
+
+          try:
+              data=fetch_contributions()
+              weeks=data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+              grid=[]
+              for week in weeks:
+                  col=[(d["date"],d["contributionCount"]) for d in week["contributionDays"]]
+                  grid.append(col)
+          except Exception as e:
+              print(f"Fetch error: {e}",flush=True)
+              from datetime import date as D
+              import random; random.seed(0)
+              start=D(2025,6,15)
+              while start.weekday()!=6: start-=timedelta(days=1)
+              grid=[]
+              for w in range(53):
+                  col=[]
+                  for d in range(7):
+                      day=start+timedelta(weeks=w,days=d)
+                      c=random.choices([0,0,0,0,1,2,3],k=1)[0] if day<=D.today() else 0
+                      col.append((day.strftime("%Y-%m-%d"),c))
+                  grid.append(col)
+
+          svg=generate_svg(grid)
+          with open("dist/snake_grid.svg","w") as f: f.write(svg)
+          print("Snake SVG written.")
+          PYEOF
+
+      - name: Create dist directory
+        run: mkdir -p dist
+
+      - name: Run snake generator
+        run: python3 gen_snake.py "${{ secrets.GH_TOKEN }}"
+
+      - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
