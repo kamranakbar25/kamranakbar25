@@ -163,15 +163,8 @@ kamran = {
 
 ## 🐍 Contribution Snake
 
-> The snake below is generated from your **real GitHub contribution data** — same grid, same green boxes.  
-> It animates a snake traveling through your actual commit history. Runs daily via GitHub Actions.
-
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/github-contribution-grid-snake.svg"/>
-    <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/github-contribution-grid-snake-dark.svg"/>
-  </picture>
+  <img src="https://raw.githubusercontent.com/kamranakbar25/kamranakbar25/output/snake_grid.svg" alt="Contribution Snake — purple snake travels only through empty cells, green contributions stay untouched"/>
 </p>
 
 ---
