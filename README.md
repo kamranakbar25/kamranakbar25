@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/kamranakbar97578">
-    <img src="https://komarev.com/ghpvc/?username=kamranakbar97578&label=Profile%20Views&color=7c3aed&style=flat-square" alt="profile views"/>
+  <a href="https://github.com/kamranakbar25">
+    <img src="https://komarev.com/ghpvc/?username=kamranakbar25&label=Profile%20Views&color=7c3aed&style=flat-square" alt="profile views"/>
   </a>
-  <a href="https://github.com/kamranakbar97578?tab=followers">
-    <img src="https://img.shields.io/github/followers/kamranakbar97578?label=Followers&style=flat-square&color=7c3aed&logo=github" alt="followers"/>
+  <a href="https://github.com/kamranakbar25?tab=followers">
+    <img src="https://img.shields.io/github/followers/kamranakbar25?label=Followers&style=flat-square&color=7c3aed&logo=github" alt="followers"/>
   </a>
   <a href="mailto:kamranakbar97578@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-kamranakbar97578%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="email"/>
@@ -26,7 +26,7 @@
 kamran = {
     "name"        : "Kamran Akbar",
     "education"   : "B.Tech CSE — AI & ML Specialization",
-    "github"      : "kamranakbar97578",
+    "github"      : "kamranakbar25",
     "email"       : "kamranakbar97578@gmail.com",
     "status"      : "Student • Learner • Builder",
     "interests"   : ["Machine Learning", "Data Science", "DSA", "Web Dev", "Open Source"],
@@ -134,9 +134,9 @@ kamran = {
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kamranakbar97578&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&ring_color=a855f7" height="180" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=kamranakbar25&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&ring_color=a855f7" height="180" alt="GitHub Stats"/>
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamranakbar97578&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9" height="180" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamranakbar25&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9" height="180" alt="Top Languages"/>
 </p>
 
 <p align="center">
@@ -162,6 +162,9 @@ kamran = {
 ---
 
 ## 🐍 Contribution Snake
+
+> The snake below is generated from your **real GitHub contribution data** — same grid, same green boxes.  
+> It animates a snake traveling through your actual commit history. Runs daily via GitHub Actions.
 
 <p align="center">
   <picture>
