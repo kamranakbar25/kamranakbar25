@@ -136,7 +136,7 @@ Open Source → Collaboration → Hackathons
 ## GitHub Stats
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=kamranakbar25&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats" />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kamranakbar25&theme=tokyonight" alt="GitHub Stats" />
   <img width="48%" src="https://streak-stats.demolab.com?user=kamranakbar25&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
