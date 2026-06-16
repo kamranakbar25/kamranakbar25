@@ -4,7 +4,7 @@
 
 </div>
 
-<h1 align="center">Hi 👋, I'm Kamran Akbar</h1>
+<h1 align="center">Hi 👋, I'm Kamran Akbar</h1> 
 
 <h3 align="center">
 B.Tech CSE Student | AI and ML Learner | Java DSA | Python | Web Development
