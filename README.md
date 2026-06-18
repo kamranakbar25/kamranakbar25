@@ -135,14 +135,23 @@ Open Source → Collaboration → Hackathons
 
 ## GitHub Stats
 
-<p align="center">
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kamranakbar25&theme=tokyonight" alt="GitHub Stats" />
-  <img width="48%" src="https://streak-stats.demolab.com?user=kamranakbar25&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
+## GitHub Stats
 
-<p align="center">
-  <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamranakbar25&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-</p>
+<div align="center">
+
+  <img width="48%" height="190px" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kamranakbar25&theme=tokyonight" alt="GitHub Stats" />
+
+  <img width="48%" height="190px" src="https://streak-stats.demolab.com/?user=kamranakbar25&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+  <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamranakbar25&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=Profile" alt="Top Languages" />
+
+</div>
 
 ---
 
